@@ -32,3 +32,16 @@ Credits
 -------
 Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
 
+Fork
+----
+
+This is my fork of the simple terminal. The changes at the config.h file were
+
+1) Font changed to Inconsolata;
+2) termname changed from "st-256colors" to "st";
+2) Clipboard patch added;
+3) Scrollback patch added;
+5) No-bold-colors patch added since it is required by the Solarized patch;
+5) Solarized patch added.
+
+For completeness, the patch files used were added in the folder "patches".
